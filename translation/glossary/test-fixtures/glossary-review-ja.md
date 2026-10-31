@@ -2,18 +2,13 @@
 
 Glossary version 1. Kit: pages.
 
-# ZecHub glossary review: Japanese (`ja`)
-
-Glossary version 1\. Kit: pages.
-
 **記入方法**
-
-- **✅ 列：** 表示されている訳が正しければ `OK`、英語のまま残す場合は `keep English`、それ以外はあなたが使う訳語を書いてください。1つのセルに書く訳語は1つだけです。自信がない場合は空欄のままにしてください。ID 列は編集しないでください。  
+- **✅ 列：** 表示されている訳が正しければ `OK`、英語のまま残す場合は `keep English`、それ以外はあなたが使う訳語を書いてください。1つのセルに書く訳語は1つだけです。自信がない場合は空欄のままにしてください。ID 列は編集しないでください。
 - **Notes 列（重要）：** 変更した行や `keep English` とした行には、理由を自分の言葉で短く1行書いてください。例：「国内の取引所やウォレットではこの用語が使われている」「この語だと郵便の住所の意味になる」。正しい語が文脈（動詞か名詞か、メニューかページか）によって変わる場合や、行の意味が分かりにくい場合も Notes に書いてください。メモのない変更は採用されないことがあります。
 
 **How to fill in**
 
-- **✅ column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.  
+- **✅ column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.
 - **Notes column (important):** for every row you change or mark `keep English`, write one short line in your own words saying why, for example "this is what local exchanges and wallets use" or "this word means a street address". Also use Notes when the right word depends on the context (verb or noun, menu or page), or when a row is unclear. Changes without a note may not be accepted.
 
 **Proposed column:** for rows the glossary had no proposal for, it now shows the word our `ja` pages use today, and "Seen today" shows the counts behind it. Please check whether it is right.
@@ -25,7 +20,6 @@ Names that stay in English in every language (brands, products, programmes) are 
 No conflicts.
 
 ## Terms in wiki pages
-
 (`terms`: 62 rows)
 
 | \# | ID | English | Meaning | Occurrences | Seen today in `ja` pages | Proposed | ✅ Confirmed | Notes |
@@ -93,17 +87,16 @@ No conflicts.
 | 61 | brand | brand | ZecHub or Zcash brand material: logos, colours, visual identity. Not: trademark (a legal term). | 4 | ブランド ×1 | ブランド |  |  |
 | 62 | visualizer | visualizer | A tool that draws Zcash network or address data as pictures. Not: visualizing / visualization (the activity), which is usually translated. | 1 | Visualizer ×1 | Visualizer |  |  |
 
-General style questions
-
+## General style questions
 (`style`: 8 questions)
 
-| \# | ID | Question | Current | ✅ Answer | Notes |
-| :---- | :---- | :---- | :---- | :---- | :---- |
+| # | ID | Question | Current | ✅ Answer | Notes |
+|---|---|---|---|---|---|
 | A | register | How to address the reader (formal or informal 'you'), and does it differ between tutorials and technical pages? |  |  |  |
-| B | english\_in\_brackets | When an English term is kept, add the English in brackets: never / first-use / always? |  |  |  |
+| B | english_in_brackets | When an English term is kept, add the English in brackets: never / first-use / always? |  |  |  |
 | C | loanwords | Crypto loanwords (blockchain, token, smart contract): keep English / translate? |  |  |  |
-| D | capitalise\_kept\_english\_at\_sentence\_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  |  |  |
+| D | capitalise_kept_english_at_sentence_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  |  |  |
 | E | numerals | Digits: western (0-9) only, or native digits allowed? |  |  |  |
-| F | decimal\_separator | Decimal separator (0.5 or 0,5)? |  |  |  |
+| F | decimal_separator | Decimal separator (0.5 or 0,5)? |  |  |  |
 | G | quotes | Quotation marks? |  |  |  |
-| H | abbreviations\_with\_full\_stop | Abbreviations written with a full stop that do not end a sentence? |  |  |  |
+| H | abbreviations_with_full_stop | Abbreviations written with a full stop that do not end a sentence? |  |  |  |
