@@ -2,13 +2,18 @@
 
 Glossary version 1. Kit: pages.
 
+# ZecHub glossary review: Japanese (`ja`)
+
+Glossary version 1\. Kit: pages.
+
 **記入方法**
-- **✅ 列：** 表示されている訳が正しければ `OK`、英語のまま残す場合は `keep English`、それ以外はあなたが使う訳語を書いてください。1つのセルに書く訳語は1つだけです。自信がない場合は空欄のままにしてください。ID 列は編集しないでください。
+
+- **✅ 列：** 表示されている訳が正しければ `OK`、英語のまま残す場合は `keep English`、それ以外はあなたが使う訳語を書いてください。1つのセルに書く訳語は1つだけです。自信がない場合は空欄のままにしてください。ID 列は編集しないでください。  
 - **Notes 列（重要）：** 変更した行や `keep English` とした行には、理由を自分の言葉で短く1行書いてください。例：「国内の取引所やウォレットではこの用語が使われている」「この語だと郵便の住所の意味になる」。正しい語が文脈（動詞か名詞か、メニューかページか）によって変わる場合や、行の意味が分かりにくい場合も Notes に書いてください。メモのない変更は採用されないことがあります。
 
 **How to fill in**
 
-- **✅ column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.
+- **✅ column:** write `OK` if the shown rendering is right, `keep English` to keep the English word, or the rendering you would use. One rendering per cell. Leave it empty if you are not sure. Do not edit the ID column.  
 - **Notes column (important):** for every row you change or mark `keep English`, write one short line in your own words saying why, for example "this is what local exchanges and wallets use" or "this word means a street address". Also use Notes when the right word depends on the context (verb or noun, menu or page), or when a row is unclear. Changes without a note may not be accepted.
 
 **Proposed column:** for rows the glossary had no proposal for, it now shows the word our `ja` pages use today, and "Seen today" shows the counts behind it. Please check whether it is right.
@@ -20,20 +25,21 @@ Names that stay in English in every language (brands, products, programmes) are 
 No conflicts.
 
 ## Terms in wiki pages
+
 (`terms`: 62 rows)
 
-| # | ID | English | Meaning | Occurrences | Seen today in `ja` pages | Proposed | ✅ Confirmed | Notes |
-|---|---|---|---|---:|---|---|---|---|
-| 1 | wallet | wallet | App or device that holds the keys to your coins and lets you send and receive them. | 1,694 | wallet (English) ×227, wallets (English) ×67 | ウォレット |  |  |
-| 2 | shielded | shielded | Protected by Zcash's zero-knowledge encryption: a shielded address, transaction or pool hides sender, receiver and amount. Not: encrypted (generic). Translate 'encrypted' normally. | 1,433 | シールドされた ×221, shielded ×207, シールド済み ×17 | シールドされた |  |  |
-| 3 | transaction | transaction | A transfer of coins recorded on the blockchain. | 1,281 | トランザクション ×489, 取引 ×222 | トランザクション |  |  |
-| 4 | address | address | A string that identifies where to send coins (shielded z-address, unified address, transparent t-address). Not: a street address, or 'to address' (speak to, deal with). | 1,140 | アドレス ×593, Address ×98 | アドレス |  |  |
-| 5 | privacy | privacy | Keeping your financial information hidden from others; the core value of Zcash. | 844 | プライバシー ×588 | プライバシー |  |  |
-| 6 | pool | pool | A bucket of coins sharing one privacy technology (the shielded Orchard pool, the transparent pool); also a mining pool. Suggestion: keep English. | 732 | プール ×487, pool ×41 | プール |  |  |
-| 7 | block | block | A batch of transactions added to the blockchain; block height is its position in the chain. Not: 'to block' (prevent, stop). | 657 | ブロック ×434, Block ×17 | ブロック |  |  |
-| 8 | payment | payment | Sending coins to pay someone. | 607 | 支払い ×315, 決済 ×91 | 支払い |  |  |
-| 9 | node | node | A computer running Zcash software that stores and checks the blockchain. Forms: It is NOT a loanword: use the translated term in compounds and plurals too. | 600 | node (English) ×82, node (rejected) ×82, nodes (English) ×36, nodes (rejected) ×36, ノード ×23 | ノード |  |  |
-| 10 | proof | proof | Cryptographic proof: mathematical evidence that a statement is true (for example that a transaction is valid) without showing the data. Not: proof as general evidence in a non-cryptographic sense. Suggestion: keep English. | 569 | proof (English) ×41, proofs (English) ×10 | 証拠 |  |  |
+| \# | ID | English | Meaning | Occurrences | Seen today in `ja` pages | Proposed | ✅ Confirmed | Notes |
+| :---- | :---- | :---- | :---- | ----: | :---- | :---- | :---- | :---- |
+| 1 | wallet | wallet | App or device that holds the keys to your coins and lets you send and receive them. | 1,694 | wallet (English) ×227, wallets (English) ×67 | ウォレット | OK |  |
+| 2 | shielded | shielded | Protected by Zcash's zero-knowledge encryption: a shielded address, transaction or pool hides sender, receiver and amount. Not: encrypted (generic). Translate 'encrypted' normally. | 1,433 | シールドされた ×221, shielded ×207, シールド済み ×17 | シールドされた | OK |  |
+| 3 | transaction | transaction | A transfer of coins recorded on the blockchain. | 1,281 | トランザクション ×489, 取引 ×222 | トランザクション | OK |  |
+| 4 | address | address | A string that identifies where to send coins (shielded z-address, unified address, transparent t-address). Not: a street address, or 'to address' (speak to, deal with). | 1,140 | アドレス ×593, Address ×98 | アドレス | OK |  |
+| 5 | privacy | privacy | Keeping your financial information hidden from others; the core value of Zcash. | 844 | プライバシー ×588 | プライバシー | OK |  |
+| 6 | pool | pool | A bucket of coins sharing one privacy technology (the shielded Orchard pool, the transparent pool); also a mining pool. Suggestion: keep English. | 732 | プール ×487, pool ×41 | プール | OK |  |
+| 7 | block | block | A batch of transactions added to the blockchain; block height is its position in the chain. Not: 'to block' (prevent, stop). | 657 | ブロック ×434, Block ×17 | ブロック | OK |  |
+| 8 | payment | payment | Sending coins to pay someone. | 607 | 支払い ×315, 決済 ×91 | 支払い | OK |  |
+| 9 | node | node | A computer running Zcash software that stores and checks the blockchain. Forms: It is NOT a loanword: use the translated term in compounds and plurals too. | 600 | node (English) ×82, node (rejected) ×82, nodes (English) ×36, nodes (rejected) ×36, ノード ×23 | ノード | OK |  |
+| 10 | proof | proof | Cryptographic proof: mathematical evidence that a statement is true (for example that a transaction is valid) without showing the data. Not: proof as general evidence in a non-cryptographic sense. Suggestion: keep English. | 569 | proof (English) ×41, proofs (English) ×10 | 証拠 | 証明 | "証明" is more appropriate than "証拠" because it refers to a mathematical proof in cryptography. |
 | 11 | chain | chain | Short for blockchain. | 476 | チェーン ×253, chain ×17 | チェーン |  |  |
 | 12 | transparent | transparent | The public, Bitcoin-like part of Zcash where addresses and amounts are visible to everyone. | 455 | transparent (English) ×119 | 透明 |  |  |
 | 13 | note | note | In Zcash, a shielded unit of value (like a private coin) held by a shielded address. Not: a written note or remark, and 'to note' (to notice); translate those normally. | 411 | ノート ×184, note ×7 | ノート |  |  |
@@ -87,16 +93,17 @@ No conflicts.
 | 61 | brand | brand | ZecHub or Zcash brand material: logos, colours, visual identity. Not: trademark (a legal term). | 4 | ブランド ×1 | ブランド |  |  |
 | 62 | visualizer | visualizer | A tool that draws Zcash network or address data as pictures. Not: visualizing / visualization (the activity), which is usually translated. | 1 | Visualizer ×1 | Visualizer |  |  |
 
-## General style questions
+General style questions
+
 (`style`: 8 questions)
 
-| # | ID | Question | Current | ✅ Answer | Notes |
-|---|---|---|---|---|---|
+| \# | ID | Question | Current | ✅ Answer | Notes |
+| :---- | :---- | :---- | :---- | :---- | :---- |
 | A | register | How to address the reader (formal or informal 'you'), and does it differ between tutorials and technical pages? |  |  |  |
-| B | english_in_brackets | When an English term is kept, add the English in brackets: never / first-use / always? |  |  |  |
+| B | english\_in\_brackets | When an English term is kept, add the English in brackets: never / first-use / always? |  |  |  |
 | C | loanwords | Crypto loanwords (blockchain, token, smart contract): keep English / translate? |  |  |  |
-| D | capitalise_kept_english_at_sentence_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  |  |  |
+| D | capitalise\_kept\_english\_at\_sentence\_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  |  |  |
 | E | numerals | Digits: western (0-9) only, or native digits allowed? |  |  |  |
-| F | decimal_separator | Decimal separator (0.5 or 0,5)? |  |  |  |
+| F | decimal\_separator | Decimal separator (0.5 or 0,5)? |  |  |  |
 | G | quotes | Quotation marks? |  |  |  |
-| H | abbreviations_with_full_stop | Abbreviations written with a full stop that do not end a sentence? |  |  |  |
+| H | abbreviations\_with\_full\_stop | Abbreviations written with a full stop that do not end a sentence? |  |  |  |
