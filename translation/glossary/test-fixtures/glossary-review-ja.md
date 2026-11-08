@@ -22,6 +22,7 @@ No conflicts.
 ## Terms in wiki pages
 (`terms`: 62 rows)
 
+
 | \# | ID | English | Meaning | Occurrences | Seen today in `ja` pages | Proposed | ✅ Confirmed | Notes |
 | :---- | :---- | :---- | :---- | ----: | :---- | :---- | :---- | :---- |
 | 1 | wallet | wallet | App or device that holds the keys to your coins and lets you send and receive them. | 1,694 | wallet (English) ×227, wallets (English) ×67 | ウォレット | OK |  |
@@ -96,8 +97,8 @@ General style questions
 | A | register | How to address the reader (formal or informal 'you'), and does it differ between tutorials and technical pages? |  | polite | (です・ます調). “You” is usually omitted. Menus and buttons use noun phrases or plain verb forms. |
 | B | english\_in\_brackets | When an English term is kept, add the English in brackets: never / first-use / always? |  | first-use | First use only, never in menus or buttons. |
 | C | loanwords | Crypto loanwords (blockchain, token, smart contract): keep English / translate? |  | Japanese loanwords | Use katakana for generic terms. Brands, products and programmes stay in English. |
-| D | capitalise\_kept\_english\_at\_sentence\_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  | no |  |
-| E | numerals | Digits: western (0-9) only, or native digits allowed? |  | western (0-9) |  |
-| F | decimal\_separator | Decimal separator (0.5 or 0,5)? |  | 0.5 |  |
-| G | quotes | Quotation marks? |  | 「 」 |  |
-| H | abbreviations\_with\_full\_stop | Abbreviations written with a full stop that do not end a sentence? |  | No, generally |  |
+| D | capitalise\_kept\_english\_at\_sentence\_start | Capitalise a kept English term at the start of a sentence (yes / no)? |  | no | Preserves case-sensitivity for commands and code libraries (e.g. zcashd). |
+| E | numerals | Digits: western (0-9) only, or native digits allowed? |  | western (0-9) | Standard Arabic numerals in Japanese technical UI. |
+| F | decimal\_separator | Decimal separator (0.5 or 0,5)? |  | 0.5 | Standard period separator in Japan. |
+| G | quotes | Quotation marks? |  | 「 」 | Standard Japanese corner brackets for quotations/emphasis. |
+| H | abbreviations\_with\_full\_stop | Abbreviations written with a full stop that do not end a sentence? |  | No, generally | Avoid mid-sentence periods to prevent unnatural line breaks. |
